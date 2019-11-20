@@ -30,9 +30,6 @@ public class FindLeavesOfBinaryTree {
 	 * 
 	 */
 	public List<List<Integer>> findLeaves(TreeNode root) {
-		if(root == null) {
-			Collections.emptyList();
-		}
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
 		while(root != null) {
 			List<Integer> leaves = new ArrayList<Integer>();
